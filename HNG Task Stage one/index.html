@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img class="headerLogo" src="./images/Logo.jpg" alt="logo" />
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <section class="hero">
+      <div class="textSection">
+        <p id="currentTimeUTC" data-testid="currentTimeUTC"></p>
+        <p id="currentDay" data-testid="currentDay"></p>
+        <br />
+
+        <h3><span>I am</span></h3>
+        <br />
+        <h1 data-testid="slackDisplayName">Wisdom Okogho</h1>
+        <br />
+        <h3><span>Frontend Developer</span></h3>
+        <br />
+        <p>
+          I'm currently undergoing an intensive training with
+          <a href="https://hng.tech/learn" data-testid="hngLink">HNG.</a>
+          So far the intenship has being superb. I have learned a lot and I can
+          vouch for the training being done here. I believe that after my
+          training, in 2 years time, I will an experienced fullstack web Dev.
+          capable of soaring above my limit.
+        </p>
+        <br />
+        <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+        <br />
+        <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+          >Scrape Any Web</a
+        >
+        <br />
+        <p data-testid="slackEmail">wizprecy37@gmail.com</p>
+        <br />
+        <button>ABOUT ME</button>
+      </div>
+      <img
+        class="profile-image"
+        src="./images/Profile image.jpg"
+        alt="profile
+      image"
+      />
+      <div id="iconSection">
+        <img
+          width="50"
+          height="50"
+          src="./icons/icons8-instagram-50.png"
+          alt="instagram-new--v1"
+        />
+        <img
+          width="50"
+          height="50"
+          src="./icons/icons8-linkedin-50.png"
+          alt="linkedin"
+        />
+        <img
+          width="80"
+          height="80"
+          src="./icons/icons8-twitter-50.png"
+          alt="x"
+        />
+        <img
+          width="50"
+          height="50"
+          src="./icons/icons8-github-50.png"
+          alt="github--v1"
+        />
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
